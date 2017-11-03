@@ -17,6 +17,10 @@ nav.navbar {
     margin-right: 0px!important;
 }
 
+#navbarSupportedContent ul li a {
+    padding: .5rem 1rem;
+}
+
 .footer {
     padding: 20px;
     background: #333;
@@ -29,4 +33,5 @@ nav.navbar {
 
 .jumbotron {
     height: 25rem;
+    margin-top: 3.5rem;
 }
