@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">	
+	<head>
+		<title>Adam Minder</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/fa/css/font-awesome.min.css">
+		<link rel="stylesheet" href="styles/custom.css">
+		<script src="scripts/jquery.min.js"></script>
+		<script src="scripts/scripts.js"></script>
+	</head>
+    <body>
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-md fixed-top navbar-dark">
+			<a href="#" class="navbar-brand"><img src="/media/images/profile.jpg" alt="" style="width: 2rem; height: 2rem;"><div style="display:inline;padding-left: 1rem;">Adam Minder</div> </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item active">
+						<a href="contact.html" class="nav-link">Contact<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Page 3</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Page 4</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- CONTACT FORM -->
+		<div class="container-fluid content" style="margin-top:5rem">
+            <div class="row">
+            <div class="col-sm-1">
+
+            </div>
+            <div class="col-sm-8">
+                    <h3>Contact Form</h3>
+                    <p>Use the following form to send me an email directly with any inquiry you may have regarding my work, employment or just to chat!</p>
+                    <form action="https://formspree.io/adamminder90@gmail.com" method="POST"">
+                        <div class="form-group">   
+                            <label for="name-label">Your Name</label>
+                            <input type="text" name="name" class="form-control" id="name-label" placeholder="Enter Your Name">
+                        </div>
+                        <div class="form-group">
+                           <label for="email-label">Your Email Address</label>
+                            <input type="email" name="_replyto" class="form-control" id="email-label" placeholder="Enter your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-label">Message</label>
+                            <textarea name="message" id="message-label" cols="30" rows="10" class="form-control" placeholder="Enter your message here"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                    </form>
+                    <p>If you would prefer to use your own email client please use the following: </p>
+                    <a href="#" onclick="location.href='mailto:adamminder90@gmail.com';" class="btn btn-danger">Send Email</a>
+            </div>
+            <div class="col-sm-3">
+
+            </div>
+        </div>
+        </div>	
+        <!-- FOOTER -->
+		<footer class="footer">
+			<p>Adam Minder</p>
+		</footer>
+		<!-- SCRIPTS -->
+		<script src="scripts/bootstrap.min.js"></script>
+		<script src="scripts/navscroll.js"></script>
+    </body>
+</html>
