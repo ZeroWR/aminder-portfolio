@@ -6,11 +6,27 @@ body {
 
 .content {
     flex: 1;
-    padding: 20px;
+}
+
+nav.navbar {
+    background-color: #333;
+}
+
+.mr-auto {
+    margin-left: auto!important;
+    margin-right: 0px!important;
 }
 
 .footer {
     padding: 20px;
     background: #333;
     color: white;
+}
+
+.card {
+    border: none;
+}
+
+.jumbotron {
+    height: 25rem;
 }
