@@ -1,11 +1,12 @@
 body {
     min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .content {
-    flex: 1;
+    flex: 1 0 0;
 }
 
 nav.navbar {
@@ -30,8 +31,6 @@ nav.navbar {
     color: #fff;
     text-shadow: 2px 2px 3px #333;
 }
-
-
 
 /* .background-tint {
     background-color: rgba(90, 88, 88, 0.65);
@@ -67,7 +66,9 @@ nav.navbar {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-    
+    .modal-dialog {
+        max-width: 70%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
