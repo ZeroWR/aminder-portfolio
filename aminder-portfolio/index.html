@@ -5,7 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio</title>
+    <meta content="Web developer based out of Chicago, Illinois - specializing in custom static websites and single page web applications" name="description">
+    <title>Adam Minder | Front-end Web Developer</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="media/images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="media/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="media/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="media/images/icons/site.webmanifest">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/materialize.css">
@@ -21,7 +26,7 @@
         <div id="index-banner" class="parallax-container" style="border-bottom: 2px solid #546e7a ">
             <div class="section no-pad-bot">
                 <div class="container shrink">
-                    <h1 class="header center" style="color: #252934;">Adam Minder</h1>
+                    <h1 class="header center header-name" style="color: #252934;">Adam Minder</h1>
                     <h5 class="row header center pink-text"></h5>
                     <img class="row valign-wrapper circle" style="max-width: 300px;" src="media/images/profile.jpg">
                     <div class="row center">
@@ -40,10 +45,11 @@
         </div>
         <!-- NAVBAR -->
         <nav id="mainNav">
-            <div class="nav-wrapper blue-grey darken-4">
-                <div class="container">
-                    <a href="#!" class="brand-logo white-text">Adam Minder</a>
-                    <ul>
+            <div class="nav-wrapper">
+                <div>
+                    <a href="#!" class="brand-logo right white-text hide-on-med-and-down show-on-medium">Adam Minder</a>
+                    <a href="#!" class="brand-logo right white-text nav-icon" ><img class="hide-on-med-and-up" src="/media/images/icons/android-chrome-192x192.png" alt=""></a>
+                    <ul class="left">
                         <li><a href="#home" class="white-text">Home</a></li>
                         <li><a href="#projects" class="white-text">Projects</a></li>
                         <li><a href="#contact" class="white-text">Contact</a></li>
@@ -96,7 +102,7 @@
         </div>
         <!-- CONTENT CONTAINER 2 -->
         <div id="projects" class="link-spacing">
-            <div class="section">
+            <div class="section container">
                 <h3 data-lax-preset="driftRight" class="center-align section-name">Projects</h3>
                 <div class="row">
                     <div class="col s12 m6">
@@ -105,7 +111,7 @@
                                 <img class="activator" src="./media/images/without-return.png">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator black-text text-darken-4">Without Return<i
+                                <span class="card-title activator hoverable black-text text-darken-4">Without Return<i
                                         class="material-icons right">more_vert</i></span>
                                 <p>A static webpage for local recording artist, Jack Beltz AKA Without Return. This was my first project for a client and first website ever published. </p>
                             </div>
@@ -128,18 +134,19 @@
                             </div>
                         </div>
                     </div>
+                    
                     <div class="col s12 m6">
                         <div class="card">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="./media/images/snippet-tool.png">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Snippet Tool<i
+                                <span class="card-title activator hoverable grey-text text-darken-4">Snippet Tool<i
                                         class="material-icons right">more_vert</i></span>
                                 <p>A tool created under collaboration with another developer for creating and saving multiple SQL snippets. An interesting project for me as it was my first collaborative attempt. </p>
                             </div>
                             <div class="card-action blue-grey darken-4">
-                                <a href="#" class="white-text">Live Example</a>
+                                <a href="https://zerowr.github.io/snippets-tool/" target="_blank" class="white-text">Live Example</a>
                             </div>
                             <div class="card-reveal">
                                 <span class="card-title black-text text-darken-4">Snippet Tool<i
@@ -166,12 +173,12 @@
                                 <img class="activator" src="./media/images/cookiesbyvictoria.png">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">CookiesByVictoria<i
+                                <span class="card-title activator hoverable grey-text text-darken-4">CookiesByVictoria<i
                                         class="material-icons right">more_vert</i></span>
                                 <p>This project was never able to be pushed live as the client decided against a custom website and stuck to social media. This one turned out clean, modern and unique. </p>
                             </div>
                             <div class="card-action blue-grey darken-4">
-                                <a href="#" class="white-text">Live Example</a>
+                                <a href="https://zerowr.github.io/victoria-cookies/" target="_blank"class="white-text">Live Example</a>
                             </div>
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">CookiesByVictoria<i
@@ -193,7 +200,7 @@
                                 <img class="activator" src="./media/images/employee-manager.png">
                             </div>
                             <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">Employee Manager<i
+                                <span class="card-title activator hoverable grey-text text-darken-4">Employee Manager<i
                                         class="material-icons right">more_vert</i></span>
                                 <p>A single page web application designed around the idea of crating an employee management system for HR teams in an enterprise setting. </p>
                             </div>
@@ -277,14 +284,14 @@
                     </div>
                 </div>
             </div>
-            <div class="parallax"><img src="media/images/background3.jpg" alt="Unsplashed background img 3"></div>
+            <div class="parallax"><img src="media/images/background4.jpg" alt="Unsplashed background img 3"></div>
         </div>
         <div class="container link-spacing" id="contact">
             <div class="section">
                 <div class="row">
                     <div class="col s12 center">
                         <h3><i class="mdi-content-send"></i></h3>
-                        <h4 class="section-name">Contact Me</h4>
+                        <h3 class="section-name">Contact Me</h3>
                         <p class="left-align light">If you like my work, please feel free to reach out to me! Fill out the form below and let me know what I can do to realize your next great idea or to help finish your project. Or just send me an email if you would like to chat about anything web dev related or if you have any inquiries</p>
                         <form action="https://formspree.io/adamminder90@gmail.com" method="POST">
                             <div class="row">
@@ -323,16 +330,16 @@
         <div class="parallax-container valign-wrapper">
             <div class="section no-pad-bot">
                 <div class="container">
-                    <div class="row center">
-                        <h3 class="header col s12 white-text">Tools I Use</h3>
-                        <p> <a class="white-text" href="https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMIx_6QiYGj4QIV2brACh1_7w1REAAYASAAEgLh0vD_BwE&gclsrc=aw.ds">Google Chrome</a> </p>
-                        <p> <a class="white-text" href="https://code.visualstudio.com/">VS Code</a> </p>
-                        <p> <a class="white-text" href="https://github.com/">GitHub</a> </p>
-                        <p> <a class="white-text" href="https://www.figma.com/" >Figma</a> </p>
+                    <div class="row center tools">
+                        <h2 class="header white-text">Tools I Use</h2>
+                        <h5> <a class="white-text" href="https://www.google.com/chrome/?brand=CHBD&gclid=EAIaIQobChMIx_6QiYGj4QIV2brACh1_7w1REAAYASAAEgLh0vD_BwE&gclsrc=aw.ds"> <img src="/media/images/chrome.png" alt=""> Google Chrome</a> </h5>
+                        <h5> <a class="white-text" href="https://code.visualstudio.com/"><img src="/media/images/vscode.png" alt=""> VS Code</a> </h5>
+                        <h5> <a class="white-text" href="https://github.com/"> <img src="/media/images/git.png" alt="">Git</a> </h5>
+                        <h5> <a class="white-text" href="https://www.figma.com/" ><img src="/media/images/figma.png" alt="">Figma</a> </h5>
                     </div>
                 </div>
             </div>
-            <div class="parallax"><img src="media/images/background4.jpg" alt="Unsplashed background img 3"></div>
+            <div class="parallax"><img src="media/images/background1.jpg" alt="Unsplashed background img 3"></div>
         </div>
         <div class="fixed-action-btn">
             <a href="#modal1" class="btn-floating btn-large modal-trigger pink lighten-1">
@@ -351,27 +358,25 @@
         </div>
     </main>
     <!-- FOOTER -->
-    <footer class="page-footer blue-grey darken-1">
+    <footer class="page-footer">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12 center-align">
-                    <h5 class="black-text">Start a conversation</h5>
-                    <p class="white-text"><i class="fas fa-mobile-alt"></i> - 779-220-1165</p>
-                    <p class="white-text"><i class="far fa-envelope"></i> - adamminder90@gmail.com</p>
+                <div class="col l6 s12">
+                    <h4 class="white-text">Reach Out</h4>
                 </div>
             </div>
-            <div class="row">
-                <div class="col 16 s12 center-align" style="margin-bottom: -50px">
-                    <a href="#home" class="waves-effect waves-light btn cyan">
+            <!-- <div class="row">
+                <div class="col 16 s12 center-align">
+                    <a href="#home" class="waves-effect waves-light btn pink lighten-1">
                         <i class="large material-icons">publish</i>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
-        <div class="footer-copyright blue-grey darken-4">
+        <div class="footer-copyright">
             <div class="container">
                 <div class="row">
-                    <div class="col l4 offset-l2 s12">
+                    <div class="col m8 s6">
                         <h5 class="white-text">Follow</h5>
                         <ul class="social-media">
                             <li><a class="white-text" href="https://github.com/ZeroWR"><i class="fab fa-github" style="margin-right: .5em;"></i>GitHub</a></li>
@@ -379,6 +384,11 @@
                             <li><a class="white-text" href="https://www.facebook.com/ZeroWR"><i class="fab fa-facebook-f" style="margin-right: .5em;"></i>Facebook</a></li>
                             <li><a class="white-text" href="https://twitter.com/AdamMinderDev"><i class="fab fa-twitter" style="margin-right: .5em;"></i>Twitter</a></li>
                         </ul>
+                    </div>
+                    <div class="col m4 s6">
+                        <h5 class="black-text">Start a conversation</h5>
+                        <p class="white-text"><i class="fas fa-mobile-alt"></i> - 779-220-1165</p>
+                        <p class="white-text"><i class="far fa-envelope"></i> - adamminder90@gmail.com</p>
                     </div>
                 </div>
                 <p class="white-text">© 2019 Adam Minder</p>

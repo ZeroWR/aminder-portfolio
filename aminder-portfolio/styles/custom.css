@@ -65,11 +65,7 @@ p {
 
 .parallax img {
     filter: blur(3px);    
-    filter: opacity(0.6); 
-}
-
-.name {
-    text-shadow: 1px 1px 3px black;
+    filter: opacity(0.5); 
 }
 
 .visible {
@@ -94,9 +90,20 @@ p {
     top: 0;
 }
 
+.nav-icon img {
+    width: 48px;
+}
+
 #index-banner {
-    /* background: linear-gradient(90deg, #252934 85%, #26c6da 15%); */
     background: linear-gradient(45deg, #252934 50%, #26c6da 50%);
+}
+
+.page-footer {
+    background: linear-gradient(45deg, #252934 50%, #26c6da 50%);
+}
+
+.footer-copyright {
+    background-color: transparent !important;
 }
 
 .card-title {
@@ -104,8 +111,8 @@ p {
     font-weight: 400 !important; 
 }
 
-.card-content {
-    border-top: 1px solid #252934;
+.header-name {
+    letter-spacing: 0.6rem;
 }
 
 nav {
@@ -115,8 +122,8 @@ nav {
     margin-top: -74px;
 }
 
-.container ul li a:hover {
-    background-color: #26c6da; 
+.nav-wrapper div ul li a:hover {
+    background-color: #26c6da !important; 
     color: #252934 !important;
 }
 
@@ -127,10 +134,15 @@ nav {
 
 .nav-wrapper {
     border-bottom: 2px solid #26c6da;
+    background-color: #252934;
 }
 
 .section-name {
     margin-bottom: 1.2em;
+}
+
+.tools h5 a img {
+    width: 2rem;
 }
 
 .input-field input:focus + label, .materialize-textarea:focus:not([readonly]) + label {
@@ -150,26 +162,6 @@ nav {
         border-bottom: 1px solid #26c6da;
         box-shadow: 0 1px 0 0 #26c6da;
       }
-.phone {
-    padding-bottom: 16px;
-    font-weight: 400;
-    display: block;
-    font-size: 14px;
-    line-height: 24px;
-    text-shadow: 1px 1px 3px black;
-}
-
-.email {
-    padding-bottom: 0px !important;
-    text-shadow: 1px 1px 3px black;
-}
-
-.toggle {
-    color: #444;
-    font-size: 3rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-}
 
 .fas.fa-rocket {
     width: 56px;
@@ -184,8 +176,30 @@ nav {
     padding: .3em;
 }
 
-@media only screen and (min-width : 993px) {
-    nav .brand-logo {
-        padding-left: 1rem;
+/* SMALL Screens */
+@media screen and (min-width : 600px) {
+    .card-content {
+        height: 100px;
     }
-  }
+}
+
+/* MEDIUM Screens */
+@media screen and (min-width : 601px) {
+    .card-content {
+        height: 280px;
+    }
+}
+
+/* LARGE Screens */
+@media screen and (min-width : 993px) {
+    .card-content {
+        height: 240px;
+    }
+}
+
+/* EXTRA LARGE Screens */
+@media screen and (min-width : 1200px) {
+    .card-content {
+        height: 200px;
+    }
+}
