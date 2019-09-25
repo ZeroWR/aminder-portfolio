@@ -188,12 +188,14 @@ nav {
     .card-content {
         height: 280px;
     }
+
 }
 
 /* LARGE Screens */
 @media screen and (min-width : 993px) {
     .card-content {
         height: 240px;
+    
     }
 }
 
